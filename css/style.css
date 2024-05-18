@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.headr_items {
+  width: 250px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 250px;
+  height: 58px;
+}
+
+.logo h2 {
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  color: rgb(51, 51, 51);
+}
+
+nav ul li i {
+  margin-right: 10px;
+}
+
+nav ul li.active,
+nav ul li:hover {
+  /* background-color: #007bff;/ */
+  color: black;
+  border-radius: 8px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+header input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user i {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.user img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.table-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 12px;
+}
+
+th {
+  color: black;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+}
+
+td i {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+td i:hover {
+  color: #007bff;
+}
